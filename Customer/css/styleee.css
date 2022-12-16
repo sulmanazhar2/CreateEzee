@@ -1,0 +1,194 @@
+
+.sign-in{
+	background-color:#DBF1FF;
+}
+.signin-window{
+	padding:0px;
+}
+.reg-select{
+margin-right:10px;
+}
+
+.seller-bg{
+	background-image:url("../img/yao1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.sellerimg{
+	width:120px;
+	height:120px;
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+	margin-top:300px;
+	float:left;
+}
+.sellerimg img{
+	width:inherit;
+	height:inherit;
+	margin-left:auto;
+	margin-right:auto;
+	display:auto;
+	border:1px solid #CCC;
+}
+.seller-name{
+	margin-left:25px;
+	margin-top:315px;
+}
+.seller-name h3,h5{
+	margin:0px;
+	padding-left:17px;
+	margin-right:0px;
+	vertical-align: middle;
+    display:block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.follow{
+	font-size:12px;
+	margin:8px 0px 0px 17px;
+}
+.follow-info{
+	
+	float:right;
+}
+.followers , .following{
+	text-align:center;
+}
+.follow-info>div{
+	font-size:17px;
+	margin:0px 20px;
+	display:inline-block;
+}
+.follow-info>div>a{
+	display:block;
+	position:relative;
+}
+.follow-info>div>a>i{
+	display:block;
+}
+.seller-nav{
+	background-color:#3C7A72;
+}
+
+.seller-home{
+	padding-left:15px;
+}
+.home>h3{
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+}
+.prod>h3{
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+padding-bottom:15px;
+}
+.more-prod{
+float:right;
+}
+
+.s-contact-img{
+width:120px;
+height:120px;
+
+}
+.s-contact-img>img{
+	width:100%;
+	height:100%;
+}
+.message{
+margin-top:25px;
+}
+.s-connect{
+margin-top:40px;
+}
+.s-email i{
+	font-size:20px;
+	color:#999;
+	margin-right:7px;
+}
+.rev{
+	width:100%;
+	padding:15px;
+	margin:20px;
+}
+.rev-img{
+width:100px;
+height:100px;
+float:left;
+margin-right:10px;
+}
+.score {
+  display: block;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.score-wrap {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 19px;
+}
+
+.score .stars-active {
+  color: #EEBD01;
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+}
+
+.score .stars-inactive {
+  color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: initial;
+  overflow: hidden;
+}
+.edit{
+	font-size:14px;
+	margin:5px 0px 7px 17px;
+	font-family: 'Montserrat', sans-serif;
+}
+.edit>i{
+font-size:14px;
+  
+}
+.reply{
+	width:100%;
+}
+.input-group-addon:hover{
+background-color:#3C7A72;
+}
+.more-review{
+float:right;
+}
+.editt{
+background-color:#5BC0DE;
+color:#FFF;
+float:right;
+}
+.editt>i{
+	font-size:14px;
+}
+.p_icon>a>i{
+margin-top:12px;
+}
+.myorders>tr{
+	height:30px;
+}
+
+@media only screen and  (max-width: 520px){ .Trade{
+	visibility:hidden}
+	.follow-info>div{
+	font-size:17px;
+	margin-top:-10px;
+	display:inline-block;
+}}
